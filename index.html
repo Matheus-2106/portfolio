@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Linhares Teixeira | Analista de Sistemas & Banco de Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#inicio" class="logo">matheus.dev</a>
+        
+        <!-- Menu de Navegação -->
+        <ul class="nav-links">
+          <li><a href="#inicio" class="i18n" data-pt="Início" data-en="Home">Início</a></li>
+          <li><a href="#sobre" class="i18n" data-pt="Sobre" data-en="About">Sobre</a></li>
+          <li><a href="#experiencia" class="i18n" data-pt="Experiência" data-en="Experience">Experiência</a></li>
+          <li><a href="#habilidades" class="i18n" data-pt="Habilidades" data-en="Skills">Habilidades</a></li>
+          <li><a href="#projetos" class="i18n" data-pt="Projetos" data-en="Projects">Projetos</a></li>
+        </ul>
+
+        <div class="controls">
+          <!-- Toggle de Idioma com Bandeiras -->
+          <button id="lang-toggle" class="btn-toggle" aria-label="Alternar Idioma / Switch Language">
+            <span id="lang-flag" class="flag-icon">&#x1f1e7;</span>
+            <span id="lang-label">PT</span>
+          </button>
+
+          <!-- Toggle de Tema (Claro / Escuro) -->
+          <button id="theme-toggle" class="btn-toggle" aria-label="Alternar Tema">
+            <span id="theme-icon">&#x1f319;</span>
+            <span id="theme-text" class="i18n" data-pt="Escuro" data-en="Dark">Escuro</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero / Apresentação -->
+    <section id="inicio" class="hero">
+      <div class="hero-text">
+        <h1>Matheus Linhares Teixeira</h1>
+        <p class="subtitle i18n" 
+           data-pt="Analista de Sistemas | Banco de Dados | Automação & Segurança" 
+           data-en="Systems Analyst | Databases | Automation & Security">
+           Analista de Sistemas | Banco de Dados | Automação & Segurança
+        </p>
+
+        <div class="meta-info">
+          <span>&#x1f4cd; Santarém - Pará, Brasil</span>
+          <span>&#x1f393; UFOPA</span>
+        </div>
+
+        <p class="i18n" 
+           data-pt="Profissional de TI com experiência em sustentação de sistemas corporativos, auditoria de segurança, administração de bancos de dados relacionais e automação de processos. Foco em redução de falhas manuais e governança de dados." 
+           data-en="IT professional with experience in enterprise systems support, security auditing, relational database administration, and process automation. Focused on reducing manual errors and data governance.">
+           Profissional de TI com experiência em sustentação de sistemas corporativos, auditoria de segurança, administração de bancos de dados relacionais e automação de processos. Foco em redução de falhas manuais e governança de dados.
+        </p>
+
+        <div class="social-links">
+          <a href="https://github.com/Matheus-2106" target="_blank" rel="noopener" class="social-btn">
+            &#x1f4c2; GitHub
+          </a>
+          <a href="https://linkedin.com/in/matheus-linhares-teixeira-0a5589335/" target="_blank" rel="noopener" class="social-btn">
+            &#x1f4bc; LinkedIn
+          </a>
+          <a href="mailto:matheus.linhares.2106@gmail.com" class="social-btn">
+            &#x1F4E7; Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Foto de Perfil -->
+      <div class="profile-img-wrapper">
+        <img src="img/profile.jpeg" 
+             alt="Foto de perfil de Matheus Linhares Teixeira" 
+             class="profile-img"
+             onerror="this.onerror=null; this.src='https://placehold.co/120x120/2563eb/ffffff?text=MLT'">
+      </div>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section id="sobre">
+      <h2 class="section-title i18n" data-pt="Formação Acadêmica" data-en="Education">Formação Acadêmica</h2>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-title i18n" data-pt="Bacharelado em Sistemas de Informação" data-en="B.S. in Information Systems">Bacharelado em Sistemas de Informação</div>
+          <div class="timeline-sub">Universidade Federal do Oeste do Pará (UFOPA)</div>
+          <div class="timeline-date i18n" data-pt="6º período (Noturno) | Previsão de conclusão: 2028" data-en="6th Semester (Evening) | Expected Graduation: 2028">6º período (Noturno) | Previsão de conclusão: 2028</div>
+          <p class="i18n" 
+             data-pt="Formação focada em análise de sistemas, banco de dados, engenharia de software, segurança da informação e redes de computadores." 
+             data-en="Degree focused on systems analysis, databases, software engineering, information security, and computer networks.">
+             Formação focada em análise de sistemas, banco de dados, engenharia de software, segurança da informação e redes de computadores.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section id="experiencia">
+      <h2 class="section-title i18n" data-pt="Experiência Profissional" data-en="Professional Experience">Experiência Profissional</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-title i18n" data-pt="Analista de Sistemas — Grupo Forte" data-en="Systems Analyst — Grupo Forte">Analista de Sistemas — Grupo Forte</div>
+          <div class="timeline-date i18n" data-pt="08/2026 – Atualmente" data-en="08/2026 – Present">08/2026 – Atualmente</div>
+          <p class="i18n" 
+             data-pt="Administração de Banco de Dados (consultas SQL complexas e integridade das informações), segurança/auditoria sob o princípio de menor privilégio e automação de processos para eliminação de gargalos operacionais." 
+             data-en="Database Administration (complex SQL queries and data integrity), security/auditing based on least privilege principles, and process automation to remove operational bottlenecks.">
+             Administração de Banco de Dados (consultas SQL complexas e integridade das informações), segurança/auditoria sob o princípio de menor privilégio e automação de processos para eliminação de gargalos operacionais.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title i18n" data-pt="Monitor de Extensão — PET Saúde (Ministério da Saúde)" data-en="Extension Teaching Assistant — PET Saúde">Monitor de Extensão — PET Saúde (Ministério da Saúde)</div>
+          <div class="timeline-date i18n" data-pt="08/2025 – Atualmente" data-en="08/2025 – Present">08/2025 – Atualmente</div>
+          <p class="i18n" 
+             data-pt="Mapeamento de processos operacionais do SUS, criação de relatórios automatizados para saúde da família e controle de insumos, além de condução de oficinas de letramento digital." 
+             data-en="Mapping SUS operational processes, developing automated reports for family health metrics and inventory control, and facilitating digital literacy workshops.">
+             Mapeamento de processos operacionais do SUS, criação de relatórios automatizados para saúde da família e controle de insumos, além de condução de oficinas de letramento digital.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title i18n" data-pt="Auxiliar Administrativo — Alternativa Pneus Auto Center" data-en="Administrative Assistant — Alternativa Pneus Auto Center">Auxiliar Administrativo — Alternativa Pneus Auto Center</div>
+          <div class="timeline-date i18n" data-pt="09/2024 – 03/2025" data-en="09/2024 – 03/2025">09/2024 – 03/2025</div>
+          <p class="i18n" 
+             data-pt="Desenvolvimento de planilhas automatizadas para cotação e análise de preços, além do suporte técnico e manutenção da rede interna de computadores." 
+             data-en="Development of automated spreadsheets for price analysis and quotations, alongside technical support and maintenance of internal computer networks.">
+             Desenvolvimento de planilhas automatizadas para cotação e análise de preços, além do suporte técnico e manutenção da rede interna de computadores.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-title i18n" data-pt="Monitor — Laboratório de Modelagem Computacional" data-en="Lab Assistant — Computational Modeling Laboratory">Monitor — Laboratório de Modelagem Computacional</div>
+          <div class="timeline-date i18n" data-pt="10/2023 – 09/2024" data-en="10/2023 – 09/2024">10/2023 – 09/2024</div>
+          <p class="i18n" 
+             data-pt="Manutenção preventiva e corretiva de parque computacional e suporte contínuo a docentes e discentes em softwares de modelagem." 
+             data-en="Preventive and corrective maintenance of computer fleets and continuous user support for academic modeling software.">
+             Manutenção preventiva e corretiva de parque computacional e suporte contínuo a docentes e discentes em softwares de modelagem.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section id="habilidades">
+      <h2 class="section-title i18n" data-pt="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+
+      <div class="skills-container">
+        <!-- Categoria 1 -->
+        <div class="skill-category">
+          <h3 class="skill-category-title i18n" data-pt="Linguagens de Programação" data-en="Programming Languages">Linguagens de Programação</h3>
+          <div class="badges-grid">
+            <span class="skill-badge"><i class="devicon-python-plain colored"></i> Python</span>
+            <span class="skill-badge"><i class="devicon-java-plain colored"></i> Java</span>
+            <span class="skill-badge"><i class="devicon-c-plain colored"></i> C</span>
+            <span class="skill-badge"><i class="devicon-bash-plain"></i> Bash / Shell Script</span>
+          </div>
+        </div>
+
+        <!-- Categoria 2 -->
+        <div class="skill-category">
+          <h3 class="skill-category-title i18n" data-pt="Banco de Dados & Gestão" data-en="Databases & Data Management">Banco de Dados & Gestão</h3>
+          <div class="badges-grid">
+            <span class="skill-badge"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+            <span class="skill-badge"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
+            <span class="skill-badge"><i class="devicon-sqldeveloper-plain colored"></i> SQL / Queries</span>
+          </div>
+        </div>
+
+        <!-- Categoria 3 -->
+        <div class="skill-category">
+          <h3 class="skill-category-title i18n" data-pt="Ferramentas & Infraestrutura" data-en="Tools & Infrastructure">Ferramentas & Infraestrutura</h3>
+          <div class="badges-grid">
+            <span class="skill-badge"><i class="devicon-linux-plain colored"></i> Linux</span>
+            <span class="skill-badge"><i class="devicon-git-plain colored"></i> Git</span>
+            <span class="skill-badge"><i class="devicon-github-original"></i> GitHub</span>
+            <span class="skill-badge">&#x1f4ca; Excel Avançado & Sheets</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos Destacados -->
+    <section id="projetos">
+      <h2 class="section-title i18n" data-pt="Projetos & Atuações Técnicas" data-en="Featured Projects & Technical Work">Projetos & Atuações Técnicas</h2>
+
+      <!-- Filtros -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all" data-pt="Todos" data-en="All">Todos</button>
+        <button class="filter-btn" data-filter="sql" data-pt="SQL & Banco de Dados" data-en="SQL & Databases">SQL & Databases</button>
+        <button class="filter-btn" data-filter="python" data-pt="Python & Automação" data-en="Python & Automation">Python & Automation</button>
+        <button class="filter-btn" data-filter="shell" data-pt="Linux & Shell Script" data-en="Linux & Shell Script">Linux & Shell Script</button>
+        <button class="filter-btn" data-filter="tools" data-pt="Planilhas & Relatórios" data-en="Spreadsheets & Reports">Spreadsheets & Reports</button>
+      </div>
+
+      <!-- Lista de Projetos -->
+      <div class="projects-grid">
+        
+        <div class="project-card" data-category="sql">
+          <img src="img/auto-analytics-sql.jpeg" 
+               alt="auto-analytics-sql" 
+               class="project-banner"
+               onerror="this.onerror=null; this.src='https://placehold.co/400x140/e2e8f0/2563eb?text=SQL+%26+Database+Admin'">
+          <div class="project-body">
+            <h3 class="project-title">Modelagem de BD relacional e consultas SQL</h3>
+            <p class="project-desc i18n" 
+               data-pt="Este projeto consiste na modelagem, implementação e análise de um banco de dados relacional para controle de vendas, clientes, catálogo de produtos e movimentação de estoque." 
+               data-en="This project consists of the modeling, implementation, and analysis of a relational database for managing sales, customers, product catalog, and inventory movements.">
+               Este projeto consiste na modelagem, implementação e análise de um banco de dados relacional para controle de vendas, clientes, catálogo de produtos e movimentação de estoque.
+            </p>
+            <div class="project-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Data Modeling</span>
+            </div>
+            <a href="https://github.com/Matheus-2106/auto-analytics-sql" target="_blank" rel="noopener" class="project-link i18n" data-pt="Ver Repositório ↗" data-en="View Repository ↗">Ver Repositório ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="shell">
+          <img src="img/cli-ops-toolkit.jpeg" 
+               alt="cli-ops-toolkit" 
+               class="project-banner"
+               onerror="this.onerror=null; this.src='https://placehold.co/400x140/e2e8f0/2563eb?text=Python+Automation'">
+          <div class="project-body">
+            <h3 class="project-title">Suíte modular de automação e administração de sistemas em Bash/Shell Script</h3>
+            <p class="project-desc i18n" 
+               data-pt="Este projeto consiste em uma suíte modular em Shell Script para automação de tarefas de administração de sistemas (sysadmin), cobrindo desde diagnósticos de hardware e alertas até rotação automatizada de backups para Linux utilizando bash." 
+               data-en="This project consists of a modular Shell Script suite for automating system administration (sysadmin) tasks, ranging from hardware diagnostics and alerts to automated backup rotation for Linux using Bash.">
+               Este projeto consiste em uma suíte modular em Shell Script para automação de tarefas de administração de sistemas (sysadmin), cobrindo desde diagnósticos de hardware e alertas até rotação automatizada de backups para Linux utilizando bash.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Shell Script</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Bash</span>
+            </div>
+            <a href="https://github.com/Matheus-2106/cli-ops-toolkit" target="_blank" rel="noopener" class="project-link i18n" data-pt="Ver Repositório ↗" data-en="View Repository ↗">Ver Repositório ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Matheus Linhares Teixeira. Built with clean code & minimalism.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
